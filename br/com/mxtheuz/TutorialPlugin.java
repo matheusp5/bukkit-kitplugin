@@ -31,7 +31,7 @@ public class TutorialPlugin extends JavaPlugin {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player = (Player) sender;
-        Bukkit.getConsoleSender().sendMessage(player.getName() + " enviou " + command.getName() + " [MxtheuZKitMod]");
+        Bukkit.getConsoleSender().sendMessage(player.getName() + " enviou " + command.getName() + " [MxtheuZKit]");
 
         if (command.getName().equalsIgnoreCase("dono")) {
 
