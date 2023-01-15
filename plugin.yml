@@ -1,6 +1,6 @@
 name: PrimeiroPlugin
 version: 2.3-SNAPSHOT
-main: br.com.mxtheuz.TutorialPlugin
+main: br.com.mxtheuz.MxPlugin
 
 commands:
   dono:
