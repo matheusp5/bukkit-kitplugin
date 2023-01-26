@@ -24,7 +24,7 @@ public class TutorialPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new PlayerManager(), this);
-        Bukkit.getConsoleSender().sendMessage("Plugin do mxtheuz inicializado com sucesso");
+        Bukkit.getConsoleSender().sendMessage("Plugin do mxtheuz inicializado com sucesso.");
     }
 
 
