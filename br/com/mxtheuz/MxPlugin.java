@@ -40,7 +40,7 @@ public class TutorialPlugin extends JavaPlugin {
                 player.getInventory().setBoots(new ItemStack(Material.DIAMOND_BOOTS));
                 player.setFlying(true);
             } else {
-                player.sendMessage(ChatColor.RED + "Você não tem permissão para isso");
+                player.sendMessage(ChatColor.RED + "Você não tem permissão para isso!");
             }
 
         } else if (command.getName().equalsIgnoreCase("admin")) {
@@ -50,7 +50,7 @@ public class TutorialPlugin extends JavaPlugin {
                 player.getInventory().setBoots(new ItemStack(Material.IRON_BOOTS));
                 player.setFlying(true);
             } else {
-                player.sendMessage(ChatColor.RED + "Você não tem permissão para isso");
+                player.sendMessage(ChatColor.RED + "Você não tem permissão para isso!");
             }
 
         } else if (command.getName().equalsIgnoreCase("moderador")) {
