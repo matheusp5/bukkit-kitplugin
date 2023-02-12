@@ -1,5 +1,5 @@
 name: MxPlugin
-version: 2.3-SNAPSHOT
+version: 4.3-SNAPSHOT
 main: br.com.mxtheuz.MxPlugin
 
 commands:
@@ -15,8 +15,8 @@ commands:
 
 permissions:
   admin:
-    description: Administradores do servidor
+    description: Administradores do servidor.
   moderador:
-    description: Moderadores do servidor
+    description: Moderadores do servidor.
 
 
